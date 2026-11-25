@@ -1,0 +1,65 @@
+{
+  "accuracy": 0.6666666666666666,
+  "balanced_accuracy": 0.5,
+  "normal_recall": 0.0,
+  "cataract_recall": 1.0,
+  "cataract_precision": 0.6666666666666666,
+  "macro_f1": 0.4,
+  "confusion_matrix_labels": [
+    "Normal",
+    "Cataract"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "test_actual_counts": {
+    "normal": 1,
+    "cataract": 2
+  },
+  "test_predicted_counts": {
+    "normal": 0,
+    "cataract": 3
+  },
+  "class_report": {
+    "Normal": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Cataract": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "accuracy": 0.6666666666666666,
+    "macro avg": {
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1-score": 0.4,
+      "support": 3.0
+    },
+    "weighted avg": {
+      "precision": 0.4444444444444444,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.5333333333333333,
+      "support": 3.0
+    }
+  },
+  "dataset_counts": {
+    "normal": 4,
+    "cataract": 8
+  },
+  "train_images": 9,
+  "test_images": 3,
+  "random_state": 42,
+  "test_fraction_requested": 0.25
+}
